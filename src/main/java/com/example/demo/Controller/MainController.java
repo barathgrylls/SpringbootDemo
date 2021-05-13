@@ -10,6 +10,6 @@ public class MainController {
 
     @GetMapping("/test")
     public String test(){
-        return "tested";
+        return "tested successfully";
     }
 }
